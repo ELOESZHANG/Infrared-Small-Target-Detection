@@ -15,9 +15,8 @@ import cv2
 import torch
 import random
 tl.set_backend('pytorch')
-image_path = ""  # /home/zzy/sirst/train/images/000006.png
-save_path = ""
-label_path = ''
+image_path = ""  # image
+save_path = ""   # save
 torch.cuda.set_device(2)
 expand_x = 1
 n_3 = 500
