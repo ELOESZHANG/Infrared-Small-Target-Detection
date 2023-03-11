@@ -12,6 +12,11 @@ We first convert the infrared image sequence into an infrared tensor in the spat
 
 4. We compare our method with current state-of-the-art CNN-based and traditional methods on public infrared sequences. The experiment results demonstrate that our model has optimal detection performance.
 
+# Qualitative Results
+![image](https://github.com/ELOESZHANG/Infrared-Small-Target-Detection/blob/main/img_demo/fig_1.png)
+![image](https://github.com/ELOESZHANG/Infrared-Small-Target-Detection/blob/main/img_demo/fig_2.png)
+![image](https://github.com/ELOESZHANG/Infrared-Small-Target-Detection/blob/main/img_demo/fig_3.png)
+
 # Reference
 Part of the code is borrowed from the work of the following authors:
 
