@@ -6,7 +6,11 @@ We first convert the infrared image sequence into an infrared tensor in the spat
 
 1. For detecting small targets in infrared sequences, we propose a novel detection model based on unsupervised deep learning and low-rank sparse decomposition for the first time.
 
-2. 
+2. To fully use both the spatial and temporal features of the infrared sequences, we construct a sparse regularization-based spatial-temporal tensor optimization model and devise a 3D CNN (3D Low-Rank Net) to be inserted into the model.
+
+3. By injecting low-rank and sparse priors into the loss function, we can efficiently enrich target features and obtain accurate detection results after learning tensor factor parameters and net parameters unsupervisedly.
+
+4. We compare our method with current state-of-the-art CNN-based and traditional methods on public infrared sequences. The experiment results demonstrate that our model has optimal detection performance.
 
 # Reference
 Part of the code is borrowed from the work of the following authors:
