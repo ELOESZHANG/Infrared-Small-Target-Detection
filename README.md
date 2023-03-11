@@ -17,6 +17,9 @@ We first convert the infrared image sequence into an infrared tensor in the spat
 ![image](https://github.com/ELOESZHANG/Infrared-Small-Target-Detection/blob/main/img_demo/fig_2.png)
 ![image](https://github.com/ELOESZHANG/Infrared-Small-Target-Detection/blob/main/img_demo/fig_3.png)
 
+# Usage
+run `main_code/main.py` to test your datasets.
+
 # Reference
 Part of the code is borrowed from the work of the following authors:
 
